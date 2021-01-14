@@ -42,4 +42,4 @@ class ExampleComponent extends Component {
 
 ## License
 
-MIT © [sadiosan](https://github.com/sadiosan)
+MIT © [by sadiosan volkeno](https://github.com/sadiosan)
