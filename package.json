@@ -1,7 +1,8 @@
 {
   "name": "volkeno-react-countdown",
   "version": "1.0.0",
-  "description": "React Countdown Package",
+  "private": false,
+  "description": "React Countdown Package bootsraped with Bootstap 4",
   "author": "sadiosan",
   "license": "MIT",
   "repository": "sadiosan/volkeno-react-countdown",
@@ -10,6 +11,11 @@
   "source": "src/index.js",
   "engines": {
     "node": ">=10"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
@@ -21,7 +27,8 @@
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files"
   },
   "peerDependencies": {
     "react": "^16.0.0"
