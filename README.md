@@ -1,6 +1,6 @@
 # volkeno-react-countdown
 
-> React Countdown Package work with Bootstap 4
+> React Countdown Package work with Bootstrap 4
 ![Image of Countdown](https://nsm09.casimages.com/img/2021/01/14//21011406503225804917211883.png)
 
 [![NPM](https://img.shields.io/npm/v/volkeno-react-countdown.svg)](https://www.npmjs.com/package/volkeno-react-countdown) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
