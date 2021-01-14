@@ -21,6 +21,8 @@
     /* border-top-color: #46b9e8; */
     /* color: #fff; */
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    color: #FF9800;
+    border-color: #4FADA1;
   }
   
   .cd-item-number:hover {
@@ -31,14 +33,9 @@
     text-align: center;
     display: block;
     font-weight: 900;
-    /* text-transform: capitalize; */
     font-size: 15px;
+    color: #4FADA1;
   }
-/* //   span.cd-item-label {
-//     color: #fff;
-//     font-weight: 900;
-//     text-transform: capitalize;
-//   } */
 .col-md-12.cf-live-item {
     margin-bottom: 30px;
 }

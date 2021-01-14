@@ -18,6 +18,9 @@ export const CountDown = ( props ) => {
       textFontSize={ props.textFontSize }
       textFontWeight={ props.textFontWeight }
       className={ props.className }
+      numberColor={ props.numberColor }
+      boxBorderColor={ props.boxBorderColor }
+      textLabelColor={ props.textLabelColor }
     />
   )
 }

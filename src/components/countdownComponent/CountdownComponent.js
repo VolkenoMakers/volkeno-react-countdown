@@ -52,20 +52,20 @@ export default class CountdownComponent extends Component {
             <Row className="cd-row">
               <Col md="12" className="countdown-col">
                 <Col md="3" className="cd_item cd-days"> 
-                  <div className="cd-item-number cd-days" style={{width: `${this.props.boxWidth}px`, height: `${this.props.boxHeight}px`, lineHeight: `${this.props.textLineHeight}px`, fontSize: `${this.props.textFontSize}px`, fontWeight: `${this.props.textFontWeight}` }}> {this.leading0(this.state.days)} </div> 
-                  <span className="cd-item-label">{ this.props.dayTextLabel }</span>
+                  <div className="cd-item-number cd-days" style={{width: `${this.props.boxWidth}px`, height: `${this.props.boxHeight}px`, lineHeight: `${this.props.textLineHeight}px`, fontSize: `${this.props.textFontSize}px`, fontWeight: `${this.props.textFontWeight}`, color: `${this.props.numberColor}`, borderColor: `${this.props.boxBorderColor}` }}> {this.leading0(this.state.days)} </div> 
+                  <span className="cd-item-label" style={{ color: `${this.props.textLabelColor}` }}>{ this.props.dayTextLabel }</span>
                 </Col>
                 <Col md="3" className="cd_item cd-hours">
-                    <div className="cd-item-number cd-hours" style={{width: `${this.props.boxWidth}px`, height: `${this.props.boxHeight}px`, lineHeight: `${this.props.textLineHeight}px`, fontSize: `${this.props.textFontSize}px`, fontWeight: `${this.props.textFontWeight}`}}> {this.leading0(this.state.hours)}  </div>
-                    <span className="cd-item-label">{ this.props.hourTextLabel }</span>
+                    <div className="cd-item-number cd-hours" style={{width: `${this.props.boxWidth}px`, height: `${this.props.boxHeight}px`, lineHeight: `${this.props.textLineHeight}px`, fontSize: `${this.props.textFontSize}px`, fontWeight: `${this.props.textFontWeight}`, color: `${this.props.numberColor}`, borderColor: `${this.props.boxBorderColor}`}}> {this.leading0(this.state.hours)}  </div>
+                    <span className="cd-item-label" style={{ color: `${this.props.textLabelColor}` }}>{ this.props.hourTextLabel }</span>
                 </Col>
                 <Col md="3" className="cd_item cd-minutes">
-                    <div className="cd-item-number cd-minutes" style={{width: `${this.props.boxWidth}px`, height: `${this.props.boxHeight}px`, lineHeight: `${this.props.textLineHeight}px`, fontSize: `${this.props.textFontSize}px`, fontWeight: `${this.props.textFontWeight}`}}>{this.leading0(this.state.minutes)} </div>
-                    <span className="cd-item-label">{ this.props.minuteTextLabel }</span>
+                    <div className="cd-item-number cd-minutes" style={{width: `${this.props.boxWidth}px`, height: `${this.props.boxHeight}px`, lineHeight: `${this.props.textLineHeight}px`, fontSize: `${this.props.textFontSize}px`, fontWeight: `${this.props.textFontWeight}`, color: `${this.props.numberColor}`, borderColor: `${this.props.boxBorderColor}`}}>{this.leading0(this.state.minutes)} </div>
+                    <span className="cd-item-label" style={{ color: `${this.props.textLabelColor}` }}>{ this.props.minuteTextLabel }</span>
                 </Col>
                 <Col md="3" className="cd_item cd-seconds">
-                    <div className="cd-item-number cd-secondes" style={{width: `${this.props.boxWidth}px`, height: `${this.props.boxHeight}px`, lineHeight: `${this.props.textLineHeight}px`, fontSize: `${this.props.textFontSize}px`, fontWeight: `${this.props.textFontWeight}`}}>{this.leading0(this.state.seconds)} </div>
-                    <span className="cd-item-label">{ this.props.secondTextLabel }</span>
+                    <div className="cd-item-number cd-secondes" style={{width: `${this.props.boxWidth}px`, height: `${this.props.boxHeight}px`, lineHeight: `${this.props.textLineHeight}px`, fontSize: `${this.props.textFontSize}px`, fontWeight: `${this.props.textFontWeight}`, color: `${this.props.numberColor}`, borderColor: `${this.props.boxBorderColor}`}}>{this.leading0(this.state.seconds)} </div>
+                    <span className="cd-item-label" style={{ color: `${this.props.textLabelColor}` }}>{ this.props.secondTextLabel }</span>
                 </Col>
               </Col>
             </Row>
